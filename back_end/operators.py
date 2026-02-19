@@ -51,4 +51,4 @@ def divide(a,b):
     Any: Quotient des deux nombres
 
    """
-    return a // b
+    return a / b
