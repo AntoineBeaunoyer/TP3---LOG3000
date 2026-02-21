@@ -34,25 +34,25 @@ Ce projet contient une suite de tests unitaires pour une fonction `calculate()` 
 ### Exécution de tous les tests
 
 ```bash
-python test_suite.py
+python tests/test_app.py
 ```
 
 ### Exécution avec verbose (affichage détaillé)
 
 ```bash
-python test_suite.py -v
+python tests/test_app.py -v
 ```
 
 ### Exécution d'un test spécifique
 
 ```bash
-python test_suite.py MyTestCase.test_addition
+python tests/test_app.py MyTestCase.test_addition
 ```
 
 ### Exécution avec unittest depuis la ligne de commande
 
 ```bash
-python -m unittest test_suite.py -v
+python -m unittest tests.test_app -v
 ```
 
 ## Couverture des tests
