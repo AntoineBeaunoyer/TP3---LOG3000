@@ -2,8 +2,7 @@
 import unittest
 import sys
 import os
-
-sys.path.append(os.path.abspath("../back_end"))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from back_end.app import calculate
 
 class MyTestCase(unittest.TestCase):
