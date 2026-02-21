@@ -93,17 +93,18 @@ Structure attendue :
 flask-calculator/
 ├── back-end/
 │   ├── app.py
-│   └── operators.py
-
+│   ├── operators.py
+│   └── README.md
 ├── README.md
 ├── front-end/
 │    ├── templates/
 │    │   └── index.html
-│    └── static/
-│        └── style.css
+│    ├── static/
+│    │   └── style.css
+│    └── README.md
 └── tests/
-     ├── operators-test.py
-     └── app-test.py
+     ├── tests_app.py
+     └── README.md
 ```
 ---
 
@@ -115,7 +116,7 @@ flask-calculator/
 2. Exécutez la commande :
 
 ```bash
-python tests_app.py
+python -m back_end.app
 ```
 
 3. Attendez le message :
@@ -304,10 +305,10 @@ git checkout -b docs/update-readme
 
 ```bash
 # Développer et tester localement
-python tests_app.py
+python -m back_end.app    
 
 # Exécuter les tests
-pytest
+python tests\tests_app.py
 
 # Vérifier la qualité du code
 # (pylint, black, flake8 à ajouter plus tard)
