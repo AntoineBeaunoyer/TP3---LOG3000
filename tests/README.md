@@ -8,10 +8,20 @@ Ce projet contient une suite de tests unitaires pour une fonction `calculate()` 
 
 ```
 .
-├── back_end/
-│   └── app.py              # Contient la fonction calculate()
-├── test_suite.py           # Fichier des tests unitaires
-└── README.md               # Ce fichier
+├── back-end/
+│   ├── app.py              # Contient la fonction calculate()
+│   ├── operators.py
+│   └── README.md
+├── README.md
+├── front-end/
+│    ├── templates/
+│    │   └── index.html
+│    ├── static/
+│    │   └── style.css
+│    └── README.md
+└── tests/
+     ├── tests_app.py         # Tests unitaires
+     └── README.md            # Ce fichier
 ```
 
 ## Prérequis
