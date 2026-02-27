@@ -185,8 +185,7 @@ Appuyez sur **Ctrl+C** dans le terminal où Flask s'exécute.
 ```
 tests/
 ├── __init__.py
-├── test_app.py               # Tests des routes Flask
-└── test_operators.py         # Tests unitaires des opérateurs
+├── tests_app.py               # Tests des routes Flask
 ```
 
 ### Prérequis pour les tests
@@ -203,16 +202,16 @@ pip install pytest pytest-flask
 
 ```bash
 # Exécuter tous les tests
-python tests/test_app.py
+python tests/tests_app.py
 
 # Avec sortie verbose
-python tests/test_app.py -v
+python tests/tests_app.py -v
 
 # Exécuter un test spécifique
-python tests/test_app.py MyTestCase.test_addition
+python tests/tests_app.py MyTestCase.test_addition
 
 # Via la ligne de commande
-python -m unittest tests.test_app -v
+python -m unittest tests.tests_app -v
 ```
 
 ### Couverture des tests
