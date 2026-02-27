@@ -25,7 +25,7 @@ def subtract(a,b):
     Any: Différence des deux nombres
 
    """
-    return b - a
+    return a - b
 
 def multiply(a,b):
     """Fonction qui multiplie un nombre à un autre ( a * b )
